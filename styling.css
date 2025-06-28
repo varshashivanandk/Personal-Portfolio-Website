@@ -1,0 +1,135 @@
+/* Reset & Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffe6f0;
+  color: black;
+}
+
+/* Header */
+header {
+  background-color: #ffb6c1; /* Full header color */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  color: white;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black;
+}
+
+/* Navigation */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(210, 38, 67);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #222;
+}
+
+.nav-links .btn {
+  padding: 8px 16px;
+  background-color: white;
+  color:rgb(210, 38, 67);
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links .btn:hover {
+  background-color: #cce7ff;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color:	#ffb6c1;
+  color: black;
+  font-size: 14px;
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+}
+
+/* Card Styling */
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 1459px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.card p {
+  color: black;
+  line-height: 1.6;
+}
+
+/* Optional: Responsive tweak */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+img{
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.about-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Helps on small screens */
+}
+
+.about-image img {
+    max-width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 250px;
+}
+#projects ul{
+list-style-type: square;
+}
+
+
