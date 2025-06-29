@@ -7,12 +7,14 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #ffe6f0;
-  color: black;
+  color: white;
+  font-size: larger;
+  text-align: justify;
 }
 
 /* Header */
 header {
-  background-color: #ffb6c1; 
+  background-color: rgb(218, 54, 54); 
 }
 
 .navbar {
@@ -38,7 +40,7 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: rgb(210, 38, 67);
+  color: lightblue;
   font-weight: 500;
   transition: color 0.3s ease;
 }
@@ -63,15 +65,15 @@ header {
 .footer {
   text-align: center;
   padding: 20px;
-  background-color:	#ffb6c1;
+  background-color:	rgb(218, 54, 54);
   color: black;
-  font-size: 14px;
+  font-size: 19px;
   margin-top: 50px;
   border-top: 1px solid #ddd;
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: rgb(36, 36, 138);
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -87,11 +89,11 @@ header {
 
 .card h2 {
   margin-bottom: 15px;
-  color: #333;
+  color: white;
 }
 
 .card p {
-  color: black;
+  color: white;
   line-height: 1.6;
 }
 
@@ -127,6 +129,13 @@ img{
 }
 #projects ul{
 list-style-type: square;
+color: white;
+}
+#projects a{
+  color: red;
+}
+#contact a{
+  color: red;
 }
 
 
